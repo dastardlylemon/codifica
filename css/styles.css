@@ -1,4 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Amatic+SC:400,700);
+@import url(http://fonts.googleapis.com/css?family=Inconsolata:400,700);
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -47,6 +49,47 @@ table {
 /* ACTUAL CSS BEGINS HERE */
 body, html {
   height: 100%;
+  font-family: 'Inconsolata', sans-serif;
+  color: #363636;
+}
+
+h1 {
+  font-family: 'Amatic SC', sans-serif;
+  font-weight: 700;
+  font-size: 50pt;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+p {
+  line-height: 1.6;
+  font-size: 15pt;
+}
+
+.content {
+  width: 900px;
+  margin: 0 auto;
+}
+
+.quote {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 20pt;
+  width: 500px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.quote::before {
+  content: '\201c';
+  font-size: 150pt;
+  float: left;
+  opacity: 0.3;
+  position: relative;
+  top: -100px;
+  left: 50px;
 }
 
 #hipster {
@@ -123,12 +166,14 @@ body, html {
   background-position: center center;
   position: relative;
   top: -50px;
+  text-shadow: none;
   transition: all 0.5s ease-in-out;
 }
 
 #about {
-  height: 500px;
+  height: auto;
   position: relative;
   top: 100%;
-  background-color: #e4e4e4;
+  background-color: rgba(228,228,228,0.9);
+  padding: 20px;
 }
