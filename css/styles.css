@@ -64,6 +64,20 @@ h1 {
 p {
   line-height: 1.6;
   font-size: 15pt;
+  text-indent: 1.5em;
+}
+
+b {
+  font-weight: 700;
+}
+
+a, a:visited:, a:active, a:hover {
+  text-decoration: none;
+  color: #9B6B00;
+}
+
+a:hover {
+  border-bottom: 2px dashed #9B6B00;
 }
 
 .content {
@@ -174,7 +188,12 @@ p {
   position: relative;
   top: 65px;
   text-shadow: 0 0 5px #000;
+  cursor: pointer;
   transition: all 0.5s ease-in-out;
+}
+
+#header li:hover {
+  text-decoration: underline;
 }
 
 #header #logo {
@@ -202,10 +221,12 @@ p {
   font-family: 'Neuton', sans-serif;
   font-weight: 700;
   font-size: 20pt;
+  text-shadow: 0 1px #fff;
 }
 
 #menu h3 {
   font-weight: 700;
+  text-shadow: 0 1px #fff;
 }
 
 #menu h4 {
@@ -218,4 +239,61 @@ p {
   padding: 20px;
   font-size: 15pt;
   width: 300px;
+  line-height: 1.3;
+}
+
+.event {
+  width: 300px;
+  float: left;
+  text-align: center;
+  line-height: 1.3;
+}
+
+.event h3, #tech-talks h3 {
+  font-family: 'Neuton', sans-serif;
+  font-size: 20pt;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+#event-wrapper {
+  width: 900px;
+  margin: 0 auto;
+}
+
+#tech-talks {
+  text-align: center;
+}
+
+#tech-talks ul {
+  line-height: 1.3;
+  font-size: 15pt;
+}
+
+#contact {
+  height: 100px;
+  background: url('../img/madeinla.svg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  background-color: #2c2b2b;
+  color: rgb(228,228,228);
+  line-height: 1.3;
+}
+
+#contact-left {
+  float: left;
+}
+
+#contact-right {
+  float: right;
+  text-align: right;
+  font-size: 16pt;
+}
+
+#contact a, #contact a:visited {
+  text-decoration: none;
+  color: #9B6B00;
+  font-weight: 700;
+  font-size: 15pt;
 }
