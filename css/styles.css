@@ -1,6 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Amatic+SC:400,700);
 @import url(http://fonts.googleapis.com/css?family=Inconsolata:400,700);
-@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(http://fonts.googleapis.com/css?family=Neuton);
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -72,24 +72,41 @@ p {
 }
 
 .quote {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Neuton', sans-serif;
   font-weight: 700;
-  text-align: center;
-  text-transform: uppercase;
-  font-size: 20pt;
+  text-align: left;
+  font-size: 30pt;
   width: 500px;
   margin: 0 auto;
   line-height: 1.6;
+  position: relative;
+  left: 20px;
 }
 
 .quote::before {
   content: '\201c';
   font-size: 150pt;
-  float: left;
   opacity: 0.3;
-  position: relative;
+  position: absolute;
   top: -100px;
-  left: 50px;
+  left: -50px;
+}
+
+.consec {
+  height: auto;
+  background-color: rgba(228,228,228,0.9);
+  padding: 20px;
+  position: relative;
+  top: 100%;
+  z-index: 0;
+}
+
+.divider {
+  background-image: url('../img/divider.svg');
+  background-position: center center;
+  width: 200px;
+  margin: 0 auto;
+  background-repeat: no-repeat;
 }
 
 #hipster {
@@ -111,6 +128,7 @@ p {
   text-align: center;
   background-color: rgba(0,0,0,0);
   transition: all 0.5s ease-in-out;
+  z-index: 5000;
 }
 
 #header_nav.tiny {
@@ -128,12 +146,12 @@ p {
 }
 
 #header_nav.tiny #header {
-  width: 780px;
+  width: 790px;
 }
 
 #header {
   height: 100px;
-  width: 930px;
+  width: 960px;
   position: relative;
   left: 50%;
   transition: all 0.5s ease-in-out;
@@ -148,9 +166,10 @@ p {
   float: left;
   color: #fff;
   text-align: center;
+  width: 110px;
   font-family: 'Amatic SC', sans-serif;
   font-weight: 700;
-  margin: 30px;
+  margin: 20px;
   position: relative;
   top: 65px;
   text-shadow: 0 0 5px #000;
@@ -167,13 +186,29 @@ p {
   position: relative;
   top: -50px;
   text-shadow: none;
+  margin-top: 30px;
   transition: all 0.5s ease-in-out;
 }
 
-#about {
-  height: auto;
-  position: relative;
-  top: 100%;
-  background-color: rgba(228,228,228,0.9);
+#menu h2 {
+  text-align: center;
+  font-family: 'Neuton', sans-serif;
+  font-weight: 700;
+  font-size: 20pt;
+}
+
+#menu h3 {
+  font-weight: 700;
+}
+
+#menu h4 {
+  text-align: center;
+  margin-top: 10px;
+}
+
+#menu td {
+  text-align: center;
   padding: 20px;
+  font-size: 15pt;
+  width: 300px;
 }
