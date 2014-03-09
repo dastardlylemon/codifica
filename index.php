@@ -68,7 +68,7 @@
           </td>
           <td>
             <h3>MVC</h3>
-            Designed with the same rigorous standards as our applications.
+            Our original Model View Cappuccino designed like our apps.
           </td>
           <td>
             <h3>macchiato.js</h3>
@@ -77,7 +77,7 @@
         </tr>
         <tr>
           <td>
-            <h3>espresso.js</h3>
+            <h3>expresso.js</h3>
             The classic coffee framework to start your day.
           </td>
           <td>
