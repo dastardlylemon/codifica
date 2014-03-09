@@ -27,7 +27,7 @@
     <div class="content">
       <h1>About</h1>
       <p>
-        A walk into the doors of Codifica is an easy indicator of what we’re about. It’s simple. We love coding, and we love coffee. We believe the best way to combine our interests is by turning caffeine into beautiful software. Codifica aims to provide the ideal hackerspace for anyone with an artistic mind, creating a close-knit community in the process.
+        A walk into the doors of Codifica is an easy indicator of what we&rsqou;re about. It&rsquo;s simple. We love coding, and we love coffee. We believe the best way to combine our interests is by turning caffeine into beautiful software. Codifica aims to provide the ideal hackerspace for anyone with an artistic mind, creating a close-knit community in the process.
       </p>
       <p>
         Our weekly events promote a welcoming environment for those eager to learn and grow. We try to make them as accessible as possible through our accepting culture.
