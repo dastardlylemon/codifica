@@ -101,7 +101,7 @@
           </td>
           <td>
             <h3>Coffee CakePHP</h3>
-            Rapidly prototyped cake with swirl of cinnamon and built in topping.
+            Rapidly prototyped cake with a swirl of cinnamon and built in topping.
           </td>
           <td>
             <h3>Raspberry Pi</h3>
