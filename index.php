@@ -12,11 +12,11 @@
   <div id="header_nav">
     <section id="header">
       <ul>
-        <li>About</li>
-        <li>Menu</li>
+        <li id="about-link">About</li>
+        <li id="menu-link">Menu</li>
         <li id="logo">Codifica</li>
-        <li>Events</li>
-        <li>Contact</li>
+        <li id="events-link">Events</li>
+        <li id="contact-link">Contact</li>
       </ul>
     </section>
   </div>
@@ -68,7 +68,7 @@
           </td>
           <td>
             <h3>MVC</h3>
-            Our original Model View Cappuccino designed like our apps.
+            Our original Model View Cappuccino, designed just like our apps.
           </td>
           <td>
             <h3>macchiato.js</h3>
@@ -147,7 +147,7 @@
   <section id="contact" class="consec">
     <div class="content">
       <div id="contact-left">
-        Love coffee and want to contribute to our growth?<br>
+        Want to contribute to our growth?<br>
         Interested in being a mentor?<br>
         Contact us.<br>
         <a href="mailto:hello@codificacoffee.com">hello@codificacoffee.com</a>
