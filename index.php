@@ -134,6 +134,7 @@
           <li>Vimprove Yourself - by Aman Agarwal</li>
           <li>How to Present Your Product - by Calvin Chan</li>
           <li>Your Website Sucks - by James Wu</li>
+          <li>Your Website is Awesome - by Kenny Shi</li>
           <li>On Traveling - by Daniel Duan</li>
           <li>TBA - by Jeffrey Wang</li>
         </ul>
@@ -155,7 +156,7 @@
       <div id="contact-right">
         Codifica Coffee<br>
         540 Midvale Plaza<br>
-        Los Angeles, CA 90024<br>
+        Los Angeles, CA 90025<br>
       </div>
     </div>
   </section>
