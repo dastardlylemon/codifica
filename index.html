@@ -155,8 +155,8 @@
       </div>
       <div id="contact-right">
         Codifica Coffee<br>
-        540 Midvale Plaza<br>
-        Los Angeles, CA 90025<br>
+        527 Midvale Avenue<br>
+        Los Angeles, CA 90024<br>
       </div>
     </div>
   </section>
