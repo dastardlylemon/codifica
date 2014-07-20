@@ -85,7 +85,7 @@
             A mocha made with our certified organic dark chocolate.
           </td>
           <td>
-            <h3>Git Pull</h3>
+            <h3>Pull Request</h3>
             A perfectly merged shot of espresso that resolves any conflict.
           </td>
         </tr>
