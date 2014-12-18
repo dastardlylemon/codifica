@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -16,12 +16,12 @@
         <li id="menu-link">Menu</li>
         <li id="logo">Codifica</li>
         <li id="events-link">Events</li>
-        <li id="contact-link">Contact</li>
+        <li class="research-link"><a href="http://research.codificacoffee.com/#/">Research</a></li>
       </ul>
     </section>
   </div>
   <section id="hipster">
-    
+
   </section>
   <section id="about" class="consec">
     <div class="content">

@@ -27,9 +27,4 @@ $(document).ready(function() {
         scrollTop: $("#events").offset().top - 50
     }, 500);
   });
-  $("#contact-link").click(function() {
-    $('html, body').animate({
-        scrollTop: $("#contact").offset().top - 100
-    }, 500);
-  });
 });
