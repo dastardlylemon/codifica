@@ -136,7 +136,7 @@
           <li>Your Website Sucks - by James Wu</li>
           <li>Your Website is Awesome - by Kenny Shi</li>
           <li>On Traveling - by Daniel Duan</li>
-          <li>TBA - by Jeffrey Wang</li>
+          <li>How to Get Good - by Jeffrey Wang</li>
         </ul>
       </div>
     </div><br><br>
